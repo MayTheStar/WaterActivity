@@ -31,9 +31,10 @@ struct ContentView: View {
                
             }
         }
-        
-        Text("Continue")
-            .foregroundColor(Color.blue)
+       
+        Button("Cuntinue") {
+            /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
+        }
 
         .padding()
     }
