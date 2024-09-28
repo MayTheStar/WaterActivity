@@ -16,10 +16,10 @@ struct ContentView: View {
             Text("Apple health")
             .frame(maxWidth: .infinity, alignment: .leading)
             .padding()
-            Toggle(isOn: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Is On@*/.constant(true)/*@END_MENU_TOKEN@*/) {
+            Toggle(isOn:) {
                 
             }
-            .tabItem { /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Item Label@*/Text("Label")/*@END_MENU_TOKEN@*/ }
+            .tabItem {  }
             
             
         }
@@ -36,7 +36,7 @@ struct ContentView: View {
             /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Action@*/ /*@END_MENU_TOKEN@*/
         }
 
-        .padding()
+        .padding() //just viewing
     }
 }
 
